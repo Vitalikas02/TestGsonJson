@@ -40,5 +40,6 @@ public class Test {
         System.out.println(
                 gson.fromJson("{'id':3,'name':'akra'}",
                         DungeonData.class));
+
     }
 }
