@@ -24,4 +24,10 @@ public class JsonArray {
     public void setQuests(List<QuestData> quests) {
         this.questsList = quests;
     }
+
+    @Override
+    public String toString() {
+        return "JsonArray [DungeonData=" + dungeonsList
+                + ", QuestData=" + questsList + "]";
+    }
 }

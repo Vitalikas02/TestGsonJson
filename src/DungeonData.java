@@ -32,5 +32,11 @@ public class DungeonData {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String toString() {
+        return    "id=" + id
+                + ",name=" + name
+                + ",rollback=" + rollback;
+    }
 }
 

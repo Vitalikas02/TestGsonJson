@@ -37,9 +37,30 @@ public class Test {
         writer.write(gson.toJson(jsonArray));
         writer.close();
 
-        System.out.println(
-                gson.fromJson("{'id':3,'name':'akra'}",
-                        DungeonData.class));
-
+        System.out.println(dungeonsList);
+        System.out.println(questsList);
+//        for(QuestData quest : questsList) {
+//            System.out.println(quest);
+//        }
     }
+//    public static void test2(){
+//
+//        List<DungeonData> dungeonDataList = new ArrayList<>();
+//        List<QuestData> questDataList = new ArrayList<>();
+//
+//        for(DungeonData dungeon : dungeonsList) {
+//            dungeonDataList.add(dungeon);
+//
+//        }
+//
+//        for(QuestData quest : questsList) {
+//            questDataList.add(quest);
+//
+//        }
+//        System.out.println(dungeonDataList);
+//        System.out.println(questDataList);
+//
+//        System.out.println(dungeonDataList.get(2));
+//        System.out.println(questDataList.get(3));
+//    }
 }
