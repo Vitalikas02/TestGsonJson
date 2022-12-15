@@ -34,8 +34,8 @@ public class DungeonData {
     }
 
     public String toString() {
-        return    "id=" + id
-                + ",name=" + name
+        return "QuestData [id=" + id
+                + "name=" + name
                 + ",rollback=" + rollback;
     }
 }

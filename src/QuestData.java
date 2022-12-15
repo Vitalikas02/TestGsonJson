@@ -35,8 +35,8 @@ public class QuestData {
 
     @Override
     public String toString() {
-        return    "id=" + id
-                + ",name=" + name
-                + ",rollback=" + rollback;
+        return "QuestData [id=" + id
+                + ", name=" + name
+                + ", rollback=" + rollback + "]";
     }
 }
